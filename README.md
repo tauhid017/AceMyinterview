@@ -1,118 +1,131 @@
-# React AI Mock Interview
+# 🎙️ AI Recruiter Voice Agent
 
-React AI Mock Interview is an innovative web application designed to simulate real-world mock interviews using AI. With seamless user authentication, an intuitive interface, and integration with advanced AI, this project serves as an invaluable tool for interview preparation.
+AI Recruiter Voice Agent is an innovative web platform designed to automate hiring through **AI-based interviews**.  
+It simulates recruiter-style interactions, generates role-specific questions, evaluates answers, and stores candidate data securely — powered by modern AI.
 
-## Assets
+---
 
-Please download the assets used in this projects from here : [Download](https://drive.google.com/drive/folders/1aAiHz6FApIc2IXOsq-TOHHZYcu-aAvrN?usp=drive_link)
+## 👥 Team
 
+We are Computer Science students from **Symbiosis Institute of Technology, Nagpur**, developing this as a real-world PBL (Problem-Based Learning) project.
+
+**Team Members**
+- **Shaikh Tauhid** – Project Lead & Full-Stack Developer  
+- **Abhishek Wekhande** – AI & Integration Specialist  
+- **Tanay Yaduka** – AI & Integration Specialist  
+
+**Mentor:** Rohit Pawar Sir  
+
+---
+
+## 🌟 Key Features
+
+### 🤖 AI-Generated Interview Questions  
+Automatically generates intelligent, role-specific interview questions.
+
+### 💬 AI-Powered Answer Evaluation  
+Google **Gemini AI** evaluates responses and provides insights.
+
+### 🔐 Secure Authentication  
+User authentication and session management via **Clerk**.
+
+### 📊 Candidate Tracking & History  
+Stores answers, analytics, and progress in **Firebase Firestore**.
+
+### 🎛️ Custom Interview Options  
+Select role, domain, and difficulty level for tailored interview experiences.
+
+### 🖥️ Modern UI  
+Clean, responsive interface powered by **Shadcn UI**.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React.js |
+| Authentication | Clerk |
+| UI Framework | Shadcn UI |
+| Database | Google Firebase Firestore |
+| AI Model | Google Gemini AI |
+| Hosting | Vercel |
+
+---
+
+## 🚀 Getting Started
+
+### 📥 Clone Repository
+\`\`\`bash
+git clone https://github.com/your-repo/ai-recruiter-voice-agent.git
+cd ai-recruiter-voice-agent
+\`\`\`
+
+### 📦 Install Dependencies
+\`\`\`bash
+npm install
+\`\`\`
+
+### ▶️ Run Dev Server
+\`\`\`bash
+npm run dev
+\`\`\`
+
+---
+
+## 🔧 Environment Variables
+
+Create a `.env` file and add:
+
+\`\`\`
+CLERK_PUBLISHABLE_KEY=YOUR_KEY
+CLERK_SECRET_KEY=YOUR_KEY
+
+VITE_FIREBASE_API_KEY=YOUR_KEY
+VITE_FIREBASE_AUTH_DOMAIN=YOUR_DOMAIN
+VITE_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
+VITE_FIREBASE_STORAGE_BUCKET=YOUR_BUCKET
+VITE_FIREBASE_MESSAGING_SENDER_ID=YOUR_ID
+VITE_FIREBASE_APP_ID=YOUR_APP_ID
+
+GEMINI_API_KEY=YOUR_GEMINI_KEY
+\`\`\`
+
+---
+##Basic demo 
 ![My Project Landing Page](./snap.png)
 
-## Features
+## 📈 Vision
 
-- AI-Powered Mock Interviews  
-  Leverage Google Gemini AI to simulate realistic interview scenarios, evaluate responses, and provide personalized feedback.
+Our mission is to make hiring:
 
-- Seamless Authentication  
-  User authentication is powered by Clerk, ensuring secure and efficient access control.
+- Faster & scalable  
+- AI-powered & objective  
+- Insight-driven, not manual-driven  
+- Future-ready for modern tech teams  
 
-- Intuitive UI  
-  Built with Shadcn UI, the application boasts a modern and responsive interface for a seamless user experience.
-
-- Data Management  
-  All user progress, interview analytics, and configurations are stored securely in Google Firebase Firestore.
-
-- Dynamic Interview Customization  
-  Customize interviews based on job roles, difficulty levels, and domains.
+What started as a student project is evolving into a powerful automated hiring assistant.
 
 ---
 
-## Tech Stack
+## 🤝 Contributing
 
-- Frontend: React.js
-- Authentication: Clerk
-- UI Framework: Shadcn UI
-- Database: Google Firebase Firestore
-- AI Integration: Google Gemini AI
+We welcome contributions in:
+
+- UI / UX design  
+- AI prompt tuning  
+- Firebase data structuring  
+- Authentication flows  
+- Documentation & testing  
 
 ---
 
-## Getting Started
+## 📬 Contact
 
-### Installation
+**Email:** tauhidshaikhsas@gmail.com  
+**Institute:** Symbiosis Institute of Technology, Nagpur  
+**Website:** *Coming Soon*  
 
-#### Clone this repository:
+---
 
-```
-git clone https://github.com/Vetrivel-VP/react-typescript-ai-mock-interview-november-2024.git
-```
-
-#### Navigate to the project directory:
-
-```
-cd react-ai-mock-interview
-```
-
-#### Install dependencies
-
-```
-npm i -g pnpm
-pnpm install
-```
-
-#### Start the development server
-
-```
-pnpm run dev
-```
-
-#### Firebase Initialization
-
-```
-firebase init
-```
-
-#### Firebase Deploy
-
-```
-firebase deploy
-```
-
-#### Project Build
-
-```
-pnpm run build
-```
-
-## Environment Variable
-
-Ensure the following environment variables are set up in a .env file:
-
-```
-VITE_FIREBASE_API_KEY=YOUR_API_KEY_REF
-VITE_FIREBASE_AUTH_DOMAIN=YOUR_API_KEY_REF
-VITE_FIREBASE_PROJECT_ID=YOUR_API_KEY_REF
-VITE_FIREBASE_STORAGE_BUCKET=YOUR_API_KEY_REF
-VITE_FIREBASE_MESSAGING_SENDER_ID=YOUR_API_KEY_REF
-VITE_FIREBASE_APP_ID=YOUR_API_KEY_REF
-```
-
-## Key Features
-
-- AI-Driven Insights
-  Provides real-time feedback on your interview performance, highlighting strengths and areas for improvement.
-
-- User-Friendly Dashboard
-  Track your progress, access past interviews, and download detailed performance reports.
-
-- Interactive Questionnaires
-  Engage with diverse question types, including multiple-choice, scenario-based, and technical coding challenges.
-
-# Author
-
-## Vetrivel Ravi
-
-- Founder of Mahalakshmi Design Studioz
-- Full-Stack Web Developer with 7+ years of experience
-- YouTube Channel: [Vetrivel Ravi](https://www.youtube.com/@vetrivelravi)
-- Email: [vetrivelravi@example.com](vetrivelravi@example.com)
+> 🚀 Building the future of hiring — intelligent, automated, AI-driven.
