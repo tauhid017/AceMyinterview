@@ -9,7 +9,7 @@ export const SignInPage = () => {
         className="absolute w-full h-full object-cover opacity-20"
       />
 
-      <SignIn path="/sign-in" />
+      <SignIn routing="path" path="/sign-in" />
     </div>
   );
 };
