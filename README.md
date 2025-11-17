@@ -1,6 +1,6 @@
-# 🎙️ AI Recruiter Voice Agent
+# 🎙️ ACeMyInterview
 
-AI Recruiter Voice Agent is an innovative web platform designed to automate hiring through **AI-based interviews**.  
+ACeMyIntee=rview is an innovative web platform designed to help students **prepare for the interviews**.  
 It simulates recruiter-style interactions, generates role-specific questions, evaluates answers, and stores candidate data securely — powered by modern AI.
 
 ---
